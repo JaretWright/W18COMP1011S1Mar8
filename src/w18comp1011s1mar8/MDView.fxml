@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="w18comp1011s1mar8.MDViewController">
+   <children>
+      <JFXTextField fx:id="firstName" labelFloat="true" layoutX="176.0" layoutY="43.0" prefHeight="44.0" prefWidth="315.0" promptText="First Name" />
+      <JFXTextField fx:id="lastName" labelFloat="true" layoutX="176.0" layoutY="186.0" prefHeight="44.0" prefWidth="315.0" promptText="Last Name" />
+      <JFXButton buttonType="RAISED" layoutX="184.0" layoutY="282.0" onAction="#submitButtonPushed" ripplerFill="#d31515" style="-fx-background-color: #4286f4;" text="Submit" textFill="WHITE" />
+   </children>
+</AnchorPane>
